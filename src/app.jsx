@@ -1,4 +1,4 @@
-import HomePage from "./pages/home";
+import { HomePage, CustomizerPage } from "./pages";
 import { GlobalStyles } from "./styles/globalStyles";
 
 const App = () => {
@@ -6,6 +6,7 @@ const App = () => {
     <>
       <GlobalStyles />
       <HomePage />
+      <CustomizerPage />
     </>
   );
 };
